@@ -57,13 +57,14 @@ change: changed the business name of the shop
 ------------------------------------------------------------------------------------------------------------------------
 3.
 
-file name:
+file name: mainscreen.html
 
-line number:
+line number: 21
 
-prompt:
+prompt: C.  Customize the HTML user interface for your customer’s application: include the shop name
 
-change:
+change: changed the Name of the parts section
+
 
 -----------------------------------------------------------------------------------------------------------------------
 
