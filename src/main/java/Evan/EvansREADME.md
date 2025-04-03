@@ -18,7 +18,7 @@ file name: EvansREADME.md
 
 line number: All Lines
 
-prompt: N/A
+prompt: B.  Create a README file that includes notes describing where in the code to find the changes you made
 
 change: Added new readme located in Evan project
 
