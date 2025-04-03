@@ -18,7 +18,7 @@ file name: EvansREADME.md
 
 line number: All Lines
 
-prompt: N/A
+prompt: B.  Create a README file that includes notes describing where in the code to find the changes you made
 
 change: Added new readme located in Evan project
 
@@ -29,13 +29,13 @@ change: Added new readme located in Evan project
 -----------------------------------------------------------------------------------------------------------------------
 1.  
 
-file name:
+file name: mainscreen.html
 
-line number: 
+line number: 14
 
-prompt:
+prompt: C.  Customize the HTML user interface for your customer’s application: include the shop name
 
-change:
+change: changed the business name of the website
 
 -----------------------------------------------------------------------------------------------------------------------
 
