@@ -61,7 +61,7 @@ file name: mainscreen.html
 
 line number: 21
 
-prompt: C.  Customize the HTML user interface for your customer’s application: include the shop name
+prompt: C.  Customize the HTML user interface for your customer’s application: include part names
 
 change: changed the Name of the parts section
 
@@ -72,13 +72,14 @@ change: changed the Name of the parts section
 ------------------------------------------------------------------------------------------------------------------------
 4.
 
-file name:
+file name: mainscreen.html
 
-line number:
+line number: 53
 
-prompt:
+prompt: C.  Customize the HTML user interface for your customer’s application: include product names
 
-change:
+change: changed the name of the products section
+
 
 -----------------------------------------------------------------------------------------------------------------------
 
