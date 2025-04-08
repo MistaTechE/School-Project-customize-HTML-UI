@@ -88,13 +88,13 @@ change: changed the name of the products section
 -----------------------------------------------------------------------------------------------------------------------
 1.
 
-file name:
+file name: About.html
 
-line number:
+line number: 1-56
 
-prompt:
+prompt: D.  Add an “About” page to the application
 
-change:
+change: Added new html file titled About, added information about the company to the page
 
 -----------------------------------------------------------------------------------------------------------------------
 
