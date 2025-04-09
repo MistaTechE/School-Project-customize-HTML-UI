@@ -60,12 +60,17 @@ public class BootStrapData implements CommandLineRunner {
             System.out.println(part.getName()+" "+part.getCompanyName());
         }
 
-        /*
-        Product bicycle= new Product("bicycle",100.0,15);
-        Product unicycle= new Product("unicycle",100.0,15);
-        productRepository.save(bicycle);
-        productRepository.save(unicycle);
-        */
+
+        Product TheT = new Product("The T - Gift Basket",75.0,20);
+        Product TheAgenda = new Product("The Agenda - Gift Basket",100.0,15);
+        Product MeTime = new Product("Me Time: Cause You’re Worth It - Basket",150.0,10);
+        Product Joy = new Product("Joy - Gift Basket",50.0,30);
+        Product P4Real = new Product("P Realness",15.0,25);
+        productRepository.save(TheT);
+        productRepository.save(TheAgenda);
+        productRepository.save(MeTime);
+        productRepository.save(Joy);
+        productRepository.save(P4Real);
 
         System.out.println("Started in Bootstrap");
         System.out.println("Number of Products"+productRepository.count());

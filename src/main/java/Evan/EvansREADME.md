@@ -143,13 +143,13 @@ change:
 -----------------------------------------------------------------------------------------------------------------------
 1.
 
-file name:
+file name: BootStrapData.java
 
-line number:
+line number: 64-73
 
-prompt:
+prompt:  Add a sample inventory with 5 products
 
-change:
+change: Added 5 products to the inventory
 
 -----------------------------------------------------------------------------------------------------------------------
 
