@@ -157,13 +157,13 @@ change: Added 5 products to the inventory
 ------------------------------------------------------------------------------------------------------------------------
 2.
 
-file name: EvansREADME.md
+file name: BootStrapData.java
 
-line number: All lines
+line number: 65-103
 
-prompt:
+prompt: Add a sample inventory with 5 Parts
 
-change:
+change: Added 5 In House Parts to the inventory
 
 -----------------------------------------------------------------------------------------------------------------------
 

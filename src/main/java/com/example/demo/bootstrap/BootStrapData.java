@@ -1,5 +1,6 @@
 package com.example.demo.bootstrap;
 
+import com.example.demo.domain.InhousePart;
 import com.example.demo.domain.OutsourcedPart;
 import com.example.demo.domain.Part;
 import com.example.demo.domain.Product;
@@ -60,7 +61,51 @@ public class BootStrapData implements CommandLineRunner {
             System.out.println(part.getName()+" "+part.getCompanyName());
         }
 
+        //creating the in-house parts for the gift baskets
+        InhousePart ProgressFlagRibbon = new InhousePart();
+        ProgressFlagRibbon.setName("Progress Flag Ribbon");
+        ProgressFlagRibbon.setInv(100);
+        ProgressFlagRibbon.setPrice(1.0);
+        ProgressFlagRibbon.setId(1);
+        ProgressFlagRibbon.setMinInv(1);
+        ProgressFlagRibbon.setMaxInv(200);
 
+        InhousePart TransFlagRibbon = new InhousePart();
+        TransFlagRibbon.setName("Trans Flag Ribbon");
+        TransFlagRibbon.setInv(100);
+        TransFlagRibbon.setPrice(1.0);
+        TransFlagRibbon.setId(2);
+        TransFlagRibbon.setMinInv(1);
+        TransFlagRibbon.setMaxInv(200);
+
+        InhousePart Cellophane = new InhousePart();
+        Cellophane.setName("Cellophane");
+        Cellophane.setInv(150);
+        Cellophane.setPrice(1.0);
+        Cellophane.setId(3);
+        Cellophane.setMinInv(1);
+        Cellophane.setMaxInv(200);
+
+        InhousePart MediumBasket = new InhousePart();
+        MediumBasket.setName("Medium Basket");
+        MediumBasket.setInv(100);
+        MediumBasket.setPrice(5.0);
+        MediumBasket.setId(4);
+        MediumBasket.setMinInv(1);
+        MediumBasket.setMaxInv(200);
+
+        InhousePart LargeBasket = new InhousePart();
+        LargeBasket.setName("Large Basket");
+        LargeBasket.setInv(150);
+        LargeBasket.setPrice(8.0);
+        LargeBasket.setId(5);
+        LargeBasket.setMinInv(1);
+        LargeBasket.setMaxInv(200);
+
+        //creating the outsourced parts for the gift baskets
+        OutsourcedPart stuff = new OutsourcedPart();
+
+        //creating the products - gift baskets
         Product TheT = new Product("The T - Gift Basket",75.0,20);
         Product TheAgenda = new Product("The Agenda - Gift Basket",100.0,15);
         Product MeTime = new Product("Me Time: Cause You’re Worth It - Basket",150.0,10);
