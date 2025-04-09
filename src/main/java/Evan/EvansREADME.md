@@ -170,13 +170,13 @@ change: Added 5 In House Parts to the inventory
 ------------------------------------------------------------------------------------------------------------------------
 3.
 
-file name:
+file name: BootStrapData.java
 
-line number:
+line number: 66- 140
 
-prompt:
+prompt:  Should not overwrite existing data in the database.
 
-change:
+change: Added parts, if statements, and made small edits to whitespace
 
 -----------------------------------------------------------------------------------------------------------------------
 
