@@ -63,49 +63,45 @@ public class BootStrapData implements CommandLineRunner {
         }
 
 
-
-        //creating the in-house parts for the gift baskets
-        InhousePart ProgressFlagRibbon = new InhousePart();
-        if(ProgressFlagRibbon.count() == 0) {
+        if(partRepository.count() == 0) {
+            //creating the in-house parts for the gift baskets
+            InhousePart ProgressFlagRibbon = new InhousePart();
             ProgressFlagRibbon.setName("Progress Flag Ribbon");
             ProgressFlagRibbon.setInv(100);
             ProgressFlagRibbon.setPrice(1.0);
             ProgressFlagRibbon.setId(1);
             //ProgressFlagRibbon.setMinInv(1);
             //ProgressFlagRibbon.setMaxInv(200);
-        }
-        InhousePart TransFlagRibbon = new InhousePart();
-        if(TransFlagRibbon.count() == 0) {
+            partRepository.save(ProgressFlagRibbon);
+
+            InhousePart TransFlagRibbon = new InhousePart();
             TransFlagRibbon.setName("Trans Flag Ribbon");
             TransFlagRibbon.setInv(100);
             TransFlagRibbon.setPrice(1.0);
             TransFlagRibbon.setId(2);
             //TransFlagRibbon.setMinInv(1);
             //TransFlagRibbon.setMaxInv(200);
-        }
+            partRepository.save(TransFlagRibbon);
 
-        InhousePart Cellophane = new InhousePart();
-        if(Cellophane.count() == 0) {
+            InhousePart Cellophane = new InhousePart();
             Cellophane.setName("Cellophane");
             Cellophane.setInv(150);
             Cellophane.setPrice(1.0);
             Cellophane.setId(3);
             //Cellophane.setMinInv(1);
             //Cellophane.setMaxInv(200);
-        }
+            partRepository.save(Cellophane);
 
-        InhousePart MediumBasket = new InhousePart();
-        if(MediumBasket.count() == 0) {
+            InhousePart MediumBasket = new InhousePart();
             MediumBasket.setName("Medium Basket");
             MediumBasket.setInv(100);
             MediumBasket.setPrice(5.0);
             MediumBasket.setId(4);
             //MediumBasket.setMinInv(1);
             //MediumBasket.setMaxInv(200);
-        }
+            partRepository.save(MediumBasket);
 
-        InhousePart LargeBasket = new InhousePart();
-        if(MediumBasket.count() == 0) {
+            InhousePart LargeBasket = new InhousePart();
             LargeBasket.setName("Large Basket");
             LargeBasket.setInv(150);
             LargeBasket.setPrice(8.0);
@@ -113,11 +109,10 @@ public class BootStrapData implements CommandLineRunner {
             //LargeBasket.setMinInv(1);
             //LargeBasket.setMaxInv(200);
             //InhousePartRepository.save(LargeBasket); currently not working, do I need this?
-        }
+            partRepository.save(LargeBasket);
 
-        //creating the outsourced parts for the gift baskets
-        OutsourcedPart Worthy = new OutsourcedPart();
-        if(Worthy.count() == 0) {
+            //creating the outsourced parts for the gift baskets
+            OutsourcedPart Worthy = new OutsourcedPart();
             Worthy.setName("Worthy at Every Size Frankie Sticker");
             Worthy.setInv(200);
             Worthy.setPrice(4.0);
@@ -125,29 +120,21 @@ public class BootStrapData implements CommandLineRunner {
             //Worthy.setMinInv(1);
             //Worthy.setMaxInv(500);
             //OutsourcedPartRepository.save(Worthy); also not working, do for all?
+            partRepository.save(Worthy);
         }
 
+        if (productRepository.count() == 0) {
+            //creating the products - gift baskets
+            Product TheT = new Product("The T - Gift Basket", 75.0, 20);
+            Product TheAgenda = new Product("The Agenda - Gift Basket", 100.0, 15);
+            Product MeTime = new Product("Me Time: Cause You’re Worth It - Basket", 150.0, 10);
+            Product Joy = new Product("Joy - Gift Basket", 50.0, 30);
+            Product P4Real = new Product("P Realness", 15.0, 25);
 
-        //creating the products - gift baskets
-        Product TheT = new Product("The T - Gift Basket", 75.0, 20);
-        Product TheAgenda = new Product("The Agenda - Gift Basket", 100.0, 15);
-        Product MeTime = new Product("Me Time: Cause You’re Worth It - Basket", 150.0, 10);
-        Product Joy = new Product("Joy - Gift Basket", 50.0, 30);
-        Product P4Real = new Product("P Realness", 15.0, 25);
-
-        if(TheT.count() == 0) {
             productRepository.save(TheT);
-        }
-        if(TheAgenda.count() == 0) {
             productRepository.save(TheAgenda);
-        }
-        if(MeTime.count() == 0) {
             productRepository.save(MeTime);
-        }
-        if(Joy.count() == 0) {
             productRepository.save(Joy);
-        }
-        if(P4Real.count() == 0) {
             productRepository.save(P4Real);
         }
 
