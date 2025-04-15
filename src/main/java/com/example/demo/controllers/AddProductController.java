@@ -184,6 +184,12 @@ public class AddProductController {
             return "failure";
         }
         else {
+            //reduce inventory by 1
+
+            //New value of inventory
+
+            //Save new inventory
+
             return "success";
         }
     }

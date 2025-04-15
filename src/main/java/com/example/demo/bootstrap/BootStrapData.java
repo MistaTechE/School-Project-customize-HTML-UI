@@ -108,7 +108,6 @@ public class BootStrapData implements CommandLineRunner {
             LargeBasket.setId(5);
             //LargeBasket.setMinInv(1);
             //LargeBasket.setMaxInv(200);
-            //InhousePartRepository.save(LargeBasket); currently not working, do I need this?
             partRepository.save(LargeBasket);
 
             //creating the outsourced parts for the gift baskets
@@ -119,7 +118,6 @@ public class BootStrapData implements CommandLineRunner {
             Worthy.setId(1);
             //Worthy.setMinInv(1);
             //Worthy.setMaxInv(500);
-            //OutsourcedPartRepository.save(Worthy); also not working, do for all?
             partRepository.save(Worthy);
         }
 
