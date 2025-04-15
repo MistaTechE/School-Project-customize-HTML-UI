@@ -198,13 +198,13 @@ change:
 -----------------------------------------------------------------------------------------------------------------------
 1.
 
-file name:
+file name: mainscreen.html
 
-line number:
+line number: 85
 
-prompt:
+prompt: Add buy button
 
-change:
+change: Added buyProduct button
 
 -----------------------------------------------------------------------------------------------------------------------
 
@@ -212,26 +212,26 @@ change:
 ------------------------------------------------------------------------------------------------------------------------
 2.
 
-file name: EvansREADME.md
+file name: AddProductController.java
 
-line number: All lines
+line number: 177-189
 
-prompt:
+prompt: Decrease inventory by 1 after clicking buyProduct button
 
-change:
+change: added buyProduct function
 
 -----------------------------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------------------------------------
 3.
 
-file name:
+file name: failure.html
 
-line number:
+line number: All lines
 
-prompt:
+prompt: Display failure message for each purchase
 
-change:
+change: Created html file for failure message with link to return to mainscreen
 
 -----------------------------------------------------------------------------------------------------------------------
 
@@ -239,13 +239,13 @@ change:
 ------------------------------------------------------------------------------------------------------------------------
 4.
 
-file name:
+file name: success.html
 
-line number:
+line number: All
 
-prompt:
+prompt: Display success message for each purchase
 
-change:
+change: Added html file for success message with link to return to mainscreen
 
 -----------------------------------------------------------------------------------------------------------------------
 
