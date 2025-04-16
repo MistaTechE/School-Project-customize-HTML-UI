@@ -70,8 +70,8 @@ public class BootStrapData implements CommandLineRunner {
             ProgressFlagRibbon.setInv(100);
             ProgressFlagRibbon.setPrice(1.0);
             ProgressFlagRibbon.setId(1);
-            //ProgressFlagRibbon.setMinInv(1);
-            //ProgressFlagRibbon.setMaxInv(200);
+            ProgressFlagRibbon.setMinInv(1);
+            ProgressFlagRibbon.setMaxInv(200);
             partRepository.save(ProgressFlagRibbon);
 
             InhousePart TransFlagRibbon = new InhousePart();
@@ -79,8 +79,8 @@ public class BootStrapData implements CommandLineRunner {
             TransFlagRibbon.setInv(100);
             TransFlagRibbon.setPrice(1.0);
             TransFlagRibbon.setId(2);
-            //TransFlagRibbon.setMinInv(1);
-            //TransFlagRibbon.setMaxInv(200);
+            TransFlagRibbon.setMinInv(1);
+            TransFlagRibbon.setMaxInv(200);
             partRepository.save(TransFlagRibbon);
 
             InhousePart Cellophane = new InhousePart();
@@ -88,8 +88,8 @@ public class BootStrapData implements CommandLineRunner {
             Cellophane.setInv(150);
             Cellophane.setPrice(1.0);
             Cellophane.setId(3);
-            //Cellophane.setMinInv(1);
-            //Cellophane.setMaxInv(200);
+            Cellophane.setMinInv(1);
+            Cellophane.setMaxInv(200);
             partRepository.save(Cellophane);
 
             InhousePart MediumBasket = new InhousePart();
@@ -97,8 +97,8 @@ public class BootStrapData implements CommandLineRunner {
             MediumBasket.setInv(100);
             MediumBasket.setPrice(5.0);
             MediumBasket.setId(4);
-            //MediumBasket.setMinInv(1);
-            //MediumBasket.setMaxInv(200);
+            MediumBasket.setMinInv(1);
+            MediumBasket.setMaxInv(200);
             partRepository.save(MediumBasket);
 
             InhousePart LargeBasket = new InhousePart();
@@ -106,8 +106,8 @@ public class BootStrapData implements CommandLineRunner {
             LargeBasket.setInv(150);
             LargeBasket.setPrice(8.0);
             LargeBasket.setId(5);
-            //LargeBasket.setMinInv(1);
-            //LargeBasket.setMaxInv(200);
+            LargeBasket.setMinInv(1);
+            LargeBasket.setMaxInv(200);
             partRepository.save(LargeBasket);
 
             //creating the outsourced parts for the gift baskets
@@ -116,8 +116,8 @@ public class BootStrapData implements CommandLineRunner {
             Worthy.setInv(200);
             Worthy.setPrice(4.0);
             Worthy.setId(1);
-            //Worthy.setMinInv(1);
-            //Worthy.setMaxInv(500);
+            Worthy.setMinInv(1);
+            Worthy.setMaxInv(500);
             partRepository.save(Worthy);
         }
 

@@ -28,6 +28,10 @@ public abstract class Part implements Serializable {
     double price;
     @Min(value = 0, message = "Inventory value must be positive")
     int inv;
+    @Min(value = 0, message = "Min Inventory value must be positive")
+    int MinInv;
+    @Min(value = 0, message = "Max Inventory value must be positive")
+    int MaxInv;
 
     @ManyToMany
     @JoinTable(name="product_part", joinColumns = @JoinColumn(name="part_id"),
@@ -88,6 +92,22 @@ public abstract class Part implements Serializable {
 
     public void setProducts(Set<Product> products) {
         this.products = products;
+    }
+
+    public int getMinInv() {
+        return MinInv;
+    }
+
+    public void setMinInv(int minInv) {
+        MinInv = minInv;
+    }
+
+    public int getMaxInv() {
+        return MaxInv;
+    }
+
+    public void setMaxInv(int maxInv) {
+        MaxInv = maxInv;
     }
 
     public String toString(){

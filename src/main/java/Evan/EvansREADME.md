@@ -253,13 +253,13 @@ change: Added html file for success message with link to return to mainscreen
 -----------------------------------------------------------------------------------------------------------------------
 1.
 
-file name:
+file name: Part.java
 
-line number:
+line number: 31-34  97-111
 
-prompt:
+prompt: Add maximum and minimum inventory fields to part entity
 
-change:
+change: Created min/max and setters/getters
 
 -----------------------------------------------------------------------------------------------------------------------
 
