@@ -102,13 +102,13 @@ change: Added new html file titled About, added information about the company to
 ------------------------------------------------------------------------------------------------------------------------
 2.
 
-file name: EvansREADME.md
+file name: About.html
 
-line number: All lines
+line number: 17-19
 
-prompt:
+prompt: Implement navigation between main screen and "About" page
 
-change:
+change: Added button to return to mainscreen
 
 -----------------------------------------------------------------------------------------------------------------------
 
