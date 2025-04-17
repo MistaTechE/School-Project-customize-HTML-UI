@@ -267,13 +267,13 @@ change: Created min/max and setters/getters
 ------------------------------------------------------------------------------------------------------------------------
 2.
 
-file name: EvansREADME.md
+file name: mainscreen.html
 
-line number: All lines
+line number: 41-42 & 52-53
 
-prompt:
+prompt: Modify sample inventory to include the maximum and minimum fields
 
-change:
+change: Added Min and Max Inventory fields for inventory
 
 -----------------------------------------------------------------------------------------------------------------------
 
