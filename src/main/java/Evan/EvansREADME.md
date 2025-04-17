@@ -280,13 +280,13 @@ change: Added Min and Max Inventory fields for inventory
 ------------------------------------------------------------------------------------------------------------------------
 3.
 
-file name:
+file name: application.properties
 
-line number:
+line number: 6
 
-prompt:
+prompt: Rename persistent storage file
 
-change:
+change: Renamed Database
 
 -----------------------------------------------------------------------------------------------------------------------
 
