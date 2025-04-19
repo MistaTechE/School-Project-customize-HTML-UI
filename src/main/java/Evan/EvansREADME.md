@@ -325,6 +325,17 @@ prompt:  Modify the code to enforce that the inventory is between or at the mini
 change: created two validator files to enforce max and min inventory values
 
 -----------------------------------------------------------------------------------------------------------------------
+7
+
+file name: Part.java
+
+line number: 23
+
+prompt:  Modify the code to enforce that the inventory is between or at the minimum and maximum value
+
+change: Added validator to the part class
+
+-----------------------------------------------------------------------------------------------------------------------
 
 
 ## Changes related to Section H:
