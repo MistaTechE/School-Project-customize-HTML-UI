@@ -336,6 +336,17 @@ prompt:  Modify the code to enforce that the inventory is between or at the mini
 change: Added validator to the part class
 
 -----------------------------------------------------------------------------------------------------------------------
+8
+
+file name: InhousePartForm.html, OutsourcedPartForm.html
+
+line number: 32-36
+
+prompt: Add to InhousePartForm form text outputs for inventory errors
+
+change: Added to InhousePartForm form text outputs for inventory errors
+
+-----------------------------------------------------------------------------------------------------------------------
 
 
 ## Changes related to Section H:

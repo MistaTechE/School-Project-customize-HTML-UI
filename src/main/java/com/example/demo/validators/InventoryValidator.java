@@ -34,13 +34,8 @@ public class InventoryValidator implements ConstraintValidator<ValidInventory, P
             //display error message when inventory > than max
             constraintValidatorContext.buildConstraintViolationWithTemplate("Inventory Error: greater than max inventory").addConstraintViolation();
             return false;
-
-            //Part myPart = repo.findById((int) part.getId());
-            //for (Part p : myPart.getParts()) {
-                //if (p.getInv()<(part.getInv()-myPart.getInv()))return false;
-            //}
         }
-        if (part.getInv() > part.getMinInv()) {
+        if (part.getInv() < part.getMinInv()) {
             //display error message when inventory > than min
             constraintValidatorContext.buildConstraintViolationWithTemplate("Inventory Error: greater than min inventory").addConstraintViolation();
             return false;
