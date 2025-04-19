@@ -294,13 +294,24 @@ change: Renamed Database
 ------------------------------------------------------------------------------------------------------------------------
 4.
 
-file name:
+file name: OutsourcedPartForm.html
 
-line number:
+line number: 16-31
 
-prompt:
+prompt: Add to OutsourcedPartForm form additional text inputs for the inventory so the user can set the maximum and minimum values
 
-change:
+change: 
+
+-----------------------------------------------------------------------------------------------------------------------
+5
+
+file name: InhousePartForm.html
+
+line number: 16-30
+
+prompt: Add to InhousePartForm form additional text inputs for the inventory so the user can set the maximum and minimum values
+
+change: Added two form fields to set Min and Max Inventory
 
 -----------------------------------------------------------------------------------------------------------------------
 
