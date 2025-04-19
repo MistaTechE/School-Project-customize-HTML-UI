@@ -303,7 +303,7 @@ prompt: Add to OutsourcedPartForm form additional text inputs for the inventory 
 change: 
 
 -----------------------------------------------------------------------------------------------------------------------
-5
+5.
 
 file name: InhousePartForm.html
 
@@ -312,6 +312,17 @@ line number: 16-30
 prompt: Add to InhousePartForm form additional text inputs for the inventory so the user can set the maximum and minimum values
 
 change: Added two form fields to set Min and Max Inventory
+
+-----------------------------------------------------------------------------------------------------------------------
+6.
+
+file name: InventoryValidator.java, ValidInventory.java
+
+line number: All lines
+
+prompt:  Modify the code to enforce that the inventory is between or at the minimum and maximum value
+
+change: created two validator files to enforce max and min inventory values
 
 -----------------------------------------------------------------------------------------------------------------------
 
