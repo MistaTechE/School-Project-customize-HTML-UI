@@ -115,29 +115,16 @@ change: Added button to return to mainscreen
 ------------------------------------------------------------------------------------------------------------------------
 3.
 
-file name:
+file name: About.html
 
-line number:
+line number: 15-514
 
-prompt:
+prompt: Document changes
 
-change:
-
------------------------------------------------------------------------------------------------------------------------
-
-
-------------------------------------------------------------------------------------------------------------------------
-4.
-
-file name:
-
-line number:
-
-prompt:
-
-change:
+change: Documents all sections of code changes
 
 -----------------------------------------------------------------------------------------------------------------------
+
 
 ## Changes related to Section E:
 -----------------------------------------------------------------------------------------------------------------------
@@ -182,15 +169,15 @@ change: Added parts, if statements, and made small edits to whitespace
 
 
 ------------------------------------------------------------------------------------------------------------------------
-4.
+4. 
 
-file name:
+file name: BootStrapData.java
 
-line number:
+line number: 123-310
 
-prompt:
+prompt: Add a sample inventory with 5 Parts
 
-change:
+change: Added more outsourced parts
 
 -----------------------------------------------------------------------------------------------------------------------
 
@@ -325,7 +312,7 @@ prompt:  Modify the code to enforce that the inventory is between or at the mini
 change: created two validator files to enforce max and min inventory values
 
 -----------------------------------------------------------------------------------------------------------------------
-7
+7.
 
 file name: Part.java
 
@@ -336,7 +323,7 @@ prompt:  Modify the code to enforce that the inventory is between or at the mini
 change: Added validator to the part class
 
 -----------------------------------------------------------------------------------------------------------------------
-8
+8.
 
 file name: InhousePartForm.html, OutsourcedPartForm.html
 
@@ -353,7 +340,7 @@ change: Added to InhousePartForm form text outputs for inventory errors
 -----------------------------------------------------------------------------------------------------------------------
 1.
 
-file name:
+file name: 
 
 line number:
 
@@ -367,9 +354,9 @@ change:
 ------------------------------------------------------------------------------------------------------------------------
 2.
 
-file name: EvansREADME.md
+file name:
 
-line number: All lines
+line number:
 
 prompt:
 
@@ -423,9 +410,9 @@ change:
 ------------------------------------------------------------------------------------------------------------------------
 2.
 
-file name: EvansREADME.md
+file name:
 
-line number: All lines
+line number:
 
 prompt:
 
@@ -478,9 +465,9 @@ change:
 ------------------------------------------------------------------------------------------------------------------------
 2.
 
-file name: EvansREADME.md
+file name:
 
-line number: All lines
+line number:
 
 prompt:
 
