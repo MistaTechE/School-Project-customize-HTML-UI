@@ -178,7 +178,7 @@ public class AddProductController {
     public String buyProduct(@RequestParam("productID") int theId, Model theModel) {
         ProductService productService = context.getBean(ProductServiceImpl.class);
         Product product2=productService.findById(theId);
-        int inv = product.getInv();
+        int inv = product2.getInv();
 
         if (inv == 0) {
             return "failure";

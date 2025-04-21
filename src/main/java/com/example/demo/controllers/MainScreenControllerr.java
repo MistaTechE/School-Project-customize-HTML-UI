@@ -51,5 +51,10 @@ public class MainScreenControllerr {
         theModel.addAttribute("products", productList);
         theModel.addAttribute("productkeyword",productkeyword);
         return "mainscreen";
+
+        //add a mapping for About button/page
+        /*@GetMapping("/About")
+        public String listPartsandProducts(Model theModel, @Param("partkeyword") String partkeyword, @Param("productkeyword") String productkeyword){
+            return "About";*/
     }
 }
