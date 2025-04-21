@@ -201,7 +201,7 @@ change: Added buyProduct button
 
 file name: AddProductController.java
 
-line number: 177-189
+line number: 177-193
 
 prompt: Decrease inventory by 1 after clicking buyProduct button
 

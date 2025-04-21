@@ -184,11 +184,10 @@ public class AddProductController {
             return "failure";
         }
         else {
-            //reduce inventory by 1
-
-            //New value of inventory
-
+            //reduce inventory by 1 & New value of inventory
+            inv = inv - 1;
             //Save new inventory
+            product2.setInv(inv);
 
             return "success";
         }
