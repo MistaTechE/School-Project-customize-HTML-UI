@@ -188,6 +188,7 @@ public class AddProductController {
             int i = inv - 1;
             //Save new inventory
             product2.setInv(i);
+            productService.save(product2);
 
             return "success";
         }
