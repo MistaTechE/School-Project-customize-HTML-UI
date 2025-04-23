@@ -124,6 +124,17 @@ prompt: Document changes
 change: Documents all sections of code changes
 
 -----------------------------------------------------------------------------------------------------------------------
+4
+
+file name: AboutController.java
+
+line number: all lines
+
+prompt: Implement navigation between main screen and "About" page
+
+change: Created controller for About page
+
+-----------------------------------------------------------------------------------------------------------------------
 
 
 ## Changes related to Section E:
