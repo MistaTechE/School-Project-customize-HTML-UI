@@ -18,7 +18,8 @@ import java.util.List;
 @Controller
 public class AboutController {
     //add a mapping for About button/page
-    @GetMapping("/About")
-    public String listPartsandProducts(Model theModel, @Param("partkeyword") String partkeyword, @Param("productkeyword") String productkeyword) {
+    @GetMapping({"/About"})
+    public String listPartsandProducts(Model theModel, @Param("partkeyword") String partkeyword, @Param("productkeyword") String productkeyword){
         return "About";
     }
+}
