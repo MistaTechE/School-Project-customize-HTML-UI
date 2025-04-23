@@ -407,13 +407,13 @@ change:
 -----------------------------------------------------------------------------------------------------------------------
 1.
 
-file name:
+file name: PartTest.java
 
-line number:
+line number: 160-172
 
-prompt:
+prompt: Add at least two unit tests for the maximum and minimum fields to the PartTest class in the test package.
 
-change:
+change: Added two tests
 
 -----------------------------------------------------------------------------------------------------------------------
 
