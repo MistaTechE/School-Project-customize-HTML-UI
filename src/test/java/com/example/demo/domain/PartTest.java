@@ -165,7 +165,7 @@ class PartTest {
         assertEquals(partIn.hashCode(),partOut.hashCode());*/
     }
     @Test
-    void somethingelse() {
+    void somethingElse() {
         /*partIn.setId(1l);
         partOut.setId(1l);
         assertEquals(partIn.hashCode(),partOut.hashCode());*/
