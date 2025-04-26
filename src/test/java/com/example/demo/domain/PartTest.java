@@ -159,16 +159,18 @@ class PartTest {
 
     //Add at least two unit tests for the maximum and minimum fields to the PartTest class in the test package.
     @Test
-    void something() {
-        /*partIn.setId(1l);
-        partOut.setId(1l);
-        assertEquals(partIn.hashCode(),partOut.hashCode());*/
+    void testMinInv() {
+        int mintest= 5;
+        int minisfive = 5;
+        partIn.setMinInv(mintest);
+        assertEquals(minisfive,partIn.getMinInv());
     }
     @Test
     void somethingElse() {
-        /*partIn.setId(1l);
-        partOut.setId(1l);
-        assertEquals(partIn.hashCode(),partOut.hashCode());*/
+        int maxtest= 500;
+        int maxisfive = 500;
+        partIn.setMinInv(maxtest);
+        assertEquals(maxisfive,partIn.getMinInv());
     }
 
 }
