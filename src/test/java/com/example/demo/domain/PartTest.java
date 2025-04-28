@@ -166,7 +166,7 @@ class PartTest {
         assertEquals(minisfive,partIn.getMinInv());
     }
     @Test
-    void somethingElse() {
+    void testMaxInv() {
         int maxtest= 500;
         int maxisfive = 500;
         partIn.setMinInv(maxtest);

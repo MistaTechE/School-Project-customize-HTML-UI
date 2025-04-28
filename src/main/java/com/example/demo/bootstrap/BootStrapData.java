@@ -74,14 +74,14 @@ public class BootStrapData implements CommandLineRunner {
             TransFlagRibbon.setMaxInv(200);
             partRepository.save(TransFlagRibbon);
 
-            InhousePart LargeBasket = new InhousePart();
-            LargeBasket.setName("Large Basket");
-            LargeBasket.setInv(150);
-            LargeBasket.setPrice(8.0);
-            LargeBasket.setId(5);
-            LargeBasket.setMinInv(1);
-            LargeBasket.setMaxInv(200);
-            partRepository.save(LargeBasket);
+            InhousePart Basket = new InhousePart();
+            Basket.setName("Basket with Cellophane");
+            Basket.setInv(150);
+            Basket.setPrice(8.0);
+            Basket.setId(5);
+            Basket.setMinInv(1);
+            Basket.setMaxInv(200);
+            partRepository.save(Basket);
 
             //creating the outsourced parts for the gift baskets
             OutsourcedPart Joy = new OutsourcedPart();
@@ -104,6 +104,7 @@ public class BootStrapData implements CommandLineRunner {
 
             OutsourcedPart TransJoy= new OutsourcedPart();
             TransJoy.setName("All the Things They Said We Couldn't Have: Stories of Trans Joy");
+            TransJoy.setCompanyName("test");
             TransJoy.setInv(75);
             TransJoy.setPrice(12.0);
             TransJoy.setId(6);
