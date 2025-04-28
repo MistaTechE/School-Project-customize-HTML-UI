@@ -46,21 +46,4 @@ public class InventoryValidator implements ConstraintValidator<ValidInventory, P
         }
         return true;
     }
-
-
-        //if(context==null) return true;
-        //if(context!=null)myContext=context;
-        //ProductService repo = myContext.getBean(ProductServiceImpl.class);
-        /*if (part.getInv() > part.getMaxInv()) {
-            //display error message when inventory > than max
-            constraintValidatorContext.buildConstraintViolationWithTemplate("Inventory Error: greater than max inventory").addConstraintViolation();
-            return false;
-        }
-        if (part.getInv() < part.getMinInv()) {
-            //display error message when inventory > than min
-            constraintValidatorContext.buildConstraintViolationWithTemplate("Inventory Error: greater than min inventory").addConstraintViolation();
-            return false;
-        }
-        return true;*/
-
 }
