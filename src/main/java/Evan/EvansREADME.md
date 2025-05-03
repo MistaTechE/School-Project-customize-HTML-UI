@@ -430,4 +430,25 @@ change: Deleted entire file
 -----------------------------------------------------------------------------------------------------------------------
 
 
+
 ## Notes  
+
+Extra Changes:
+
+file name: mainscreen.html
+
+line number: 15-17 & 105-107
+
+prompt: None
+
+change: Added images
+
+-----------------------------------------------------------------------------------------------------------------------
+
+file name: success.html
+
+line number: 22
+
+prompt: None
+
+change: Added image
