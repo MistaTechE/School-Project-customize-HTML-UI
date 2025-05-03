@@ -28,11 +28,9 @@
     <p>Max Inventory <input type="text" path="MaxInv" th:field="*{MaxInv}" placeholder="Max Inventory" class="form-control mb-4 col-4"/></p>
     <p th:if="${#fields.hasErrors('MaxInv')}" th:errors="*{MaxInv}">Max Inventory Error</p>
 
-    <div th:if="${#fields.hasAnyErrors()}">
+    <div th:if="${#fields.hasErrors()}">
         <ul>
-            <!--<li th:each="err: ${fields.allErrors()}" th:text="${err}">-->
-
-            </li>
+            <li th:each="err : ${#fields.allErrors()}" th:text="${err}" class="error"/>
         </ul>
     </div>
 

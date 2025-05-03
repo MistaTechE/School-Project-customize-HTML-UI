@@ -351,13 +351,13 @@ change: Added to InhousePartForm form text outputs for inventory errors
 -----------------------------------------------------------------------------------------------------------------------
 1.
 
-file name: 
+file name: OutsourcedPartForm.html
 
-line number:
+line number: 33-37
 
-prompt:
+prompt: Display error messages for low inventory when adding and updating parts if the inventory is less than the minimum number of parts or more than the maximum number of parts.
 
-change:
+change: Added error messages
 
 -----------------------------------------------------------------------------------------------------------------------
 
@@ -365,43 +365,28 @@ change:
 ------------------------------------------------------------------------------------------------------------------------
 2.
 
-file name:
+file name: InhousePartForm.html
 
-line number:
+line number: 31-35
 
-prompt:
+prompt: Display error messages for low inventory when adding and updating parts if the inventory is less than the minimum number of parts or more than the maximum number of parts.
 
-change:
+change: Added error messages
 
 -----------------------------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------------------------------------
 3.
 
-file name:
+file name: EnufPartsValidator.java
 
-line number:
+line number: 38
 
-prompt:
+prompt: Display error messages for low inventory when adding and updating products lowers the part inventory below the minimum.
 
-change:
-
------------------------------------------------------------------------------------------------------------------------
-
-
-------------------------------------------------------------------------------------------------------------------------
-4.
-
-file name:
-
-line number:
-
-prompt:
-
-change:
+change: Added control to return false if parts requested to increase product would reduce parts below min inventory, resulting in error message
 
 -----------------------------------------------------------------------------------------------------------------------
-
 
 ## Changes related to Section I:
 -----------------------------------------------------------------------------------------------------------------------
@@ -418,51 +403,11 @@ change: Added two tests
 -----------------------------------------------------------------------------------------------------------------------
 
 
-------------------------------------------------------------------------------------------------------------------------
-2.
-
-file name:
-
-line number:
-
-prompt:
-
-change:
-
------------------------------------------------------------------------------------------------------------------------
-
-------------------------------------------------------------------------------------------------------------------------
-3.
-
-file name:
-
-line number:
-
-prompt:
-
-change:
-
------------------------------------------------------------------------------------------------------------------------
-
-
-------------------------------------------------------------------------------------------------------------------------
-4.
-
-file name:
-
-line number:
-
-prompt:
-
-change:
-
------------------------------------------------------------------------------------------------------------------------
-
 ## Changes related to Section J:
 -----------------------------------------------------------------------------------------------------------------------
 1.
 
-file name:
+file name: 
 
 line number:
 
