@@ -17,8 +17,8 @@ import javax.validation.ConstraintValidatorContext;
  *
  *
  *
- *
- */
+ **/
+
 public class PriceProductValidator implements ConstraintValidator<ValidProductPrice, Product> {
     @Autowired
     private ApplicationContext context;
