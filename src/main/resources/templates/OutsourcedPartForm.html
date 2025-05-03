@@ -22,7 +22,7 @@
 <p>Inventory<input type="text" th:field="*{inv}" placeholder="Inventory" class="form-control mb-4 col-4"/></p>
     <p th:if="${#fields.hasErrors('inv')}" th:errors="*{inv}">Inventory Error</p>
 
-    <p>Name<input type="text" th:field="*{companyName}" placeholder="Company Name" class="form-control mb-4 col-4"/></p>
+    <p>Company Name<input type="text" th:field="*{companyName}" placeholder="Company Name" class="form-control mb-4 col-4"/></p>
 
     <p>Min Inventory <input type="text" th:field="*{MinInv}" placeholder="Min Inventory" class="form-control mb-4 col-4"/></p>
     <p th:if="${#fields.hasErrors('MinInv')}" th:errors="*{MinInv}">Min Inventory Error</p>

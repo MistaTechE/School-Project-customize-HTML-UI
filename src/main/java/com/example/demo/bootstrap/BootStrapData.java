@@ -69,7 +69,7 @@ public class BootStrapData implements CommandLineRunner {
             TransFlagRibbon.setName("Trans Flag Ribbon");
             TransFlagRibbon.setInv(100);
             TransFlagRibbon.setPrice(1.0);
-            TransFlagRibbon.setId(2);
+            TransFlagRibbon.setId(1);
             TransFlagRibbon.setMinInv(1);
             TransFlagRibbon.setMaxInv(200);
             partRepository.save(TransFlagRibbon);
@@ -78,7 +78,7 @@ public class BootStrapData implements CommandLineRunner {
             Basket.setName("Basket with Cellophane");
             Basket.setInv(150);
             Basket.setPrice(8.0);
-            Basket.setId(5);
+            Basket.setId(2);
             Basket.setMinInv(1);
             Basket.setMaxInv(200);
             partRepository.save(Basket);
@@ -86,28 +86,30 @@ public class BootStrapData implements CommandLineRunner {
             //creating the outsourced parts for the gift baskets
             OutsourcedPart Joy = new OutsourcedPart();
             Joy.setName("Always Seek Joy Sticker");
+            Joy.setCompanyName("ctoanco.com");
             Joy.setInv(200);
             Joy.setPrice(4.0);
-            Joy.setId(7);
+            Joy.setId(3);
             Joy.setMinInv(1);
             Joy.setMaxInv(500);
             partRepository.save(Joy);
 
             OutsourcedPart TomorrowWillBeDifferent = new OutsourcedPart();
             TomorrowWillBeDifferent.setName("Tomorrow Will Be Different by Sarah McBride");
+            TomorrowWillBeDifferent.setCompanyName("allshewrotebooks.com/product-page/tomorrow-will-be-different-by-sarah-mcbride");
             TomorrowWillBeDifferent.setInv(75);
             TomorrowWillBeDifferent.setPrice(18.0);
-            TomorrowWillBeDifferent.setId(6);
+            TomorrowWillBeDifferent.setId(5);
             TomorrowWillBeDifferent.setMinInv(1);
             TomorrowWillBeDifferent.setMaxInv(100);
             partRepository.save(TomorrowWillBeDifferent);
 
             OutsourcedPart TransJoy= new OutsourcedPart();
             TransJoy.setName("All the Things They Said We Couldn't Have: Stories of Trans Joy");
-            TransJoy.setCompanyName("test");
+            TransJoy.setCompanyName("spectrumoutfitters.us/collections/books/products/all-the-things-they-said-we-couldnt-have-stories-of-trans-joy-t-c-oaks-monger-illustrated-by-flatboy");
             TransJoy.setInv(75);
             TransJoy.setPrice(12.0);
-            TransJoy.setId(6);
+            TransJoy.setId(7);
             TransJoy.setMinInv(1);
             TransJoy.setMaxInv(100);
             partRepository.save(TransJoy);

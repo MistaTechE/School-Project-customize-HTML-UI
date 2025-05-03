@@ -452,3 +452,13 @@ line number: 22
 prompt: None
 
 change: Added image
+
+-----------------------------------------------------------------------------------------------------------------------
+
+file name: OutsourcedPartForm.html
+
+line number: 25
+
+prompt: None
+
+change: changed Name to Company Name for display for the Company Name Field
