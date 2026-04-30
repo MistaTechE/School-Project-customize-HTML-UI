@@ -1,0 +1,1 @@
+Coding project for University, designed to develop skills in: implementing user interfaces and object-oriented programming frameworks. This project only conntains front-end and connections for backend but not the backend.
